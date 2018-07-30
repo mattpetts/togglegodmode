@@ -1,0 +1,14 @@
+{% set entries = craft.entries()
+    .section('playground')
+    .limit(10)
+    .all() %}
+
+{% for entry in entries %}
+    <article
+        style="max-width: 500px; width: 100%; display: block; margin: auto; color: red;"
+    >
+        <h1><a href="{{ entry.url }}">{{ entry.title }}</a></h1>
+        {{ entry.description }}
+        <a href="{{ entry.url }}">Continue reading</a>
+    </article>
+{% endfor %}

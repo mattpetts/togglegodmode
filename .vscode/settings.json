@@ -1,0 +1,17 @@
+{
+    "deploy.reloaded": {
+        "targets": [
+            {
+                "type": "ftp",
+                "name": "Toggle God Mode FTP",
+                "description": "FTP folder",
+
+                "dir": "/",
+                "host": "91.208.99.4", 
+                "port": 21,
+                "user": "tgm025@togglegodmode.co.uk", 
+                "password": "F&5-3*f@be{M52S+"                
+            },
+        ]
+    }
+}
